@@ -294,6 +294,19 @@
 				<string>#DFDFD5</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>Bracket Highlighter</string>
+			<key>scope</key>
+			<string>brackethighlighter.round, brackethighlighter.curly, brackethighlighter.square</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#3F848E</string>
+			  <key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>A735E334-7473-4EC7-B44B-EAB031F3F226</string>

@@ -2001,6 +2001,17 @@
 				<string>#6a8187</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>Bracket Highlighter</string>
+			<key>scope</key>
+			<string>brackethighlighter.round, brackethighlighter.curly, brackethighlighter.square</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#E9F06C</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>38E819D9-AE02-452F-9231-ECC3B204AFD7</string>

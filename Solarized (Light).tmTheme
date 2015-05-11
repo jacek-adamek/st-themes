@@ -2012,6 +2012,17 @@
 				<string>#E9F06C</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>Clojure namespace keywords</string>
+			<key>scope</key>
+			<string>support.other.keyword.namespace.clojure</string>
+			<key>settings</key>
+			<dict>
+			  <key>foreground</key>
+				<string>#BB9900</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>38E819D9-AE02-452F-9231-ECC3B204AFD7</string>

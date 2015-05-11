@@ -2025,6 +2025,17 @@
 				<string>#FFFFFF</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>Clojure namespace keywords</string>
+			<key>scope</key>
+			<string>support.other.keyword.namespace.clojure</string>
+			<key>settings</key>
+			<dict>
+			  <key>foreground</key>
+				<string>#BB9900</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>A4299D9B-1DE5-4BC4-87F6-A757E71B1597</string>

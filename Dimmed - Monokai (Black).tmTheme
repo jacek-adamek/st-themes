@@ -133,8 +133,6 @@
     </string>
 				<key>foreground</key>
 				<string>#8080FF</string>
-				<key>background</key>
-				<string>#1e1e1e</string>
 			</dict>
 		</dict>
 		<dict>

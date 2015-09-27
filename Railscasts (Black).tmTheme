@@ -174,6 +174,17 @@
 			</dict>
 		</dict>
 		<dict>
+      <key>name</key>
+      <string>Library type (Elixir)</string>
+      <key>scope</key>
+      <string>support.type.elixir</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#DA4939</string>
+      </dict>
+    </dict>
+		<dict>
 			<key>name</key>
 			<string>Library type</string>
 			<key>scope</key>

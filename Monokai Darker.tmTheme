@@ -6,19 +6,8 @@
 <!-- code: https://github.com/aziz/tmTheme-Editor -->
 <plist version="1.0">
 <dict>
-	<key>gutterSettings</key>
-	<dict>
-		<key>background</key>
-		<string>#49483E</string>
-		<key>divider</key>
-		<string>#75715E</string>
-		<key>foreground</key>
-		<string>#75715E</string>
-	</dict>
 	<key>name</key>
 	<string>Monokai</string>
-	<key>semanticClass</key>
-	<string>theme.dark.monokai</string>
 	<key>settings</key>
 	<array>
 		<dict>
@@ -31,9 +20,9 @@
 				<key>foreground</key>
 				<string>#F8F8F2</string>
 				<key>invisibles</key>
-				<string>#49483E</string>
+				<string>#3B3A32</string>
 				<key>lineHighlight</key>
-				<string>#49483E</string>
+				<string>#3E3D32</string>
 				<key>selection</key>
 				<string>#49483E</string>
 			</dict>
@@ -46,7 +35,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#75715E</string>
+				<string>#5e5a4bff</string>
 				<key>fontStyle</key>
 				<string> italic</string>
 			</dict>
@@ -59,7 +48,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E6DB74</string>
+				<string>#b8af5dff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -83,7 +72,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#AE81FF</string>
+				<string>#8b67ccff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -94,7 +83,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#AE81FF</string>
+				<string>#8b67ccff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -105,7 +94,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#AE81FF</string>
+				<string>#8b67ccff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -127,7 +116,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#F92672</string>
+				<string>#c71e5bff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -140,7 +129,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#F92672</string>
+				<string>#c71e5bff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -151,7 +140,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#66D9EF</string>
+				<string>#52aebfff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -162,7 +151,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#A6E22E</string>
+				<string>#85b525ff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -173,7 +162,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#A6E22E</string>
+				<string>#85b525ff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -186,7 +175,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#A6E22E</string>
+				<string>#85b525ff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -197,7 +186,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FD971F</string>
+				<string>#ca7919ff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -210,7 +199,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#E8BF6A</string>
+				<string>#BA9955</string>
 			</dict>
 		</dict>
 		<dict>
@@ -223,7 +212,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#A6E22E</string>
+				<string>#85b525ff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -236,7 +225,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#66D9EF</string>
+				<string>#52aebfff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -249,7 +238,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#66D9EF</string>
+				<string>#52aebfff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -260,7 +249,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#66D9EF</string>
+				<string>#52aebfff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -282,11 +271,11 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#F92672</string>
+				<string>#c71e5bff</string>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#F8F8F0</string>
+				<string>#c6c6c0ff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -297,9 +286,9 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#AE81FF</string>
+				<string>#8b67ccff</string>
 				<key>foreground</key>
-				<string>#F8F8F0</string>
+				<string>#c6c6c0ff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -331,5 +320,7 @@
 	<string>D8D5E82E-3D5B-46B5-B38E-8C841C21347D</string>
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
+	<key>semanticClass</key>
+	<string>theme.dark.monokai</string>
 </dict>
 </plist>

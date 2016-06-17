@@ -35,7 +35,7 @@
 				<key>background</key>
 				<string>#282C34</string>
 				<key>caret</key>
-				<string>#528BFF</string>
+				<string>#FFFFFF</string>
 				<key>foreground</key>
 				<string>#ABB2BF</string>
 				<key>invisibles</key>

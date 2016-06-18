@@ -878,6 +878,17 @@
 				<string>#BB9900</string>
 			</dict>
 		</dict>
+		<dict>
+      <key>name</key>
+      <string>Library type (Elixir)</string>
+      <key>scope</key>
+      <string>support.type.elixir</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#d19a66</string>
+      </dict>
+    </dict>
 	</array>
 	<key>uuid</key>
 	<string>32bd64fa-d60a-4858-a5fc-5164cc49a2b8</string>

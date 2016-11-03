@@ -177,7 +177,7 @@
       <key>name</key>
       <string>Library type (Elixir)</string>
       <key>scope</key>
-      <string>support.type.elixir</string>
+      <string>entity.name.class.elixir</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>

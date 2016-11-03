@@ -29,7 +29,7 @@
 				<key>caret</key>
 				<string>#F8F8F0</string>
 				<key>foreground</key>
-				<string>#F8F8F2</string>
+				<string>#D8D8D2</string>
 				<key>invisibles</key>
 				<string>#49483E</string>
 				<key>lineHighlight</key>
@@ -60,7 +60,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#9fff60</string>
+				<string>#8fe556</string>
 			</dict>
 		</dict>
 		<dict>

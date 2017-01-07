@@ -33,17 +33,17 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#282C34</string>
+				<string>#2B2B2B</string>
 				<key>caret</key>
 				<string>#FFFFFF</string>
 				<key>foreground</key>
-				<string>#D0D0D0</string>
+				<string>#E6E1DC</string>
 				<key>invisibles</key>
-				<string>#747369</string>
+				<string>#404040</string>
 				<key>lineHighlight</key>
-				<string>#2B313A</string>
+				<string>#333435</string>
 				<key>selection</key>
-				<string>#3D4350</string>
+				<string>#5A647EE0</string>
 			</dict>
 		</dict>
 		<dict>

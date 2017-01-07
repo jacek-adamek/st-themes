@@ -35,19 +35,19 @@
 				<key>activeGuide</key>
 				<string>#FBC95A</string>
 				<key>background</key>
-				<string>#1B2B34</string>
+				<string>#2B2B2B</string>
 				<key>caret</key>
-				<string>#c0c5ce</string>
+				<string>#FFFFFF</string>
 				<key>foreground</key>
-				<string>#CDD3DE</string>
+				<string>#E6E1DC</string>
 				<key>guide</key>
 				<string>#65737F</string>
 				<key>invisibles</key>
-				<string>#65737e</string>
+				<string>#404040</string>
 				<key>lineHighlight</key>
-				<string>#65737e55</string>
+				<string>#333435</string>
 				<key>selection</key>
-				<string>#4f5b66</string>
+				<string>#5A647EE0</string>
 				<key>stackGuide</key>
 				<string>#4F5B66</string>
 			</dict>

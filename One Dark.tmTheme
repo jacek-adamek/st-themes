@@ -481,7 +481,7 @@
 				<string>#BE5046</string>
 			</dict>
 		</dict>
-		<dict>
+		<!-- <dict>
 			<key>name</key>
 			<string>Illegal</string>
 			<key>scope</key>
@@ -493,7 +493,7 @@
 				<key>foreground</key>
 				<string>#272B33</string>
 			</dict>
-		</dict>
+		</dict> -->
 		<dict>
 			<key>name</key>
 			<string>Broken</string>

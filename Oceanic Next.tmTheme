@@ -215,11 +215,22 @@
 			<key>name</key>
 			<string>meta.method.js</string>
 			<key>scope</key>
-			<string>meta.class-method.js entity.name.function.js, variable.function.constructor</string>
+			<string>meta.class-method.js entity.name.function.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#D8DEE9</string>
+				<string>#61AFEF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>meta.method.js</string>
+			<key>scope</key>
+			<string>variable.function.constructor</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FAC863</string>
 			</dict>
 		</dict>
 		<dict>

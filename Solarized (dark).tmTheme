@@ -1179,6 +1179,19 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>String interpolation</string>
+			<key>scope</key>
+			<string>constant.character.escaped, constant.character.escape, string source, string source.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#519F50</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Bracket Highlighter</string>
 			<key>scope</key>
 			<string>brackethighlighter.round, brackethighlighter.curly, brackethighlighter.square</string>

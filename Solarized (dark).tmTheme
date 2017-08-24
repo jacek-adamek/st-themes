@@ -167,7 +167,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#A8B4B5</string>
+				<string>#859900ff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1175,6 +1175,19 @@
 			<dict>
 				<key>foreground</key>
 				<string>#d33682ff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>String interpolation</string>
+			<key>scope</key>
+			<string>constant.character.escaped, constant.character.escape, string source, string source.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#519F50</string>
 			</dict>
 		</dict>
 		<dict>

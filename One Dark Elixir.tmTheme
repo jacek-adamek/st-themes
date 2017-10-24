@@ -110,8 +110,8 @@
 			<string>variable</string>
 			<key>settings</key>
 			<dict>
-				<key>foreground</key>
-				<string>#D0D0FF</string>
+				<key>fontStyle</key>
+				<string></string>
 			</dict>
 		</dict>
 		<dict>
@@ -555,6 +555,28 @@
 				<string>#3F848E</string>
 			  <key>foreground</key>
 				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Module attributes (@spec and other starting with @)</string>
+			<key>scope</key>
+			<string>variable.other.readwrite.module.elixir</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#D0D0FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Module variables (MODULE, ENV, CALLER)</string>
+			<key>scope</key>
+			<string>variable.language.elixir</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#D0D0FF</string>
 			</dict>
 		</dict>
 	</array>

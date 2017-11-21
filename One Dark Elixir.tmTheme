@@ -48,6 +48,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Source</string>
+			<key>scope</key>
+			<string>source</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#232323</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Text</string>
 			<key>scope</key>
 			<string>variable.parameter.function</string>

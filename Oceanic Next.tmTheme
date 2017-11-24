@@ -54,6 +54,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Source</string>
+			<key>scope</key>
+			<string>source</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#232323</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Comments</string>
 			<key>scope</key>
 			<string>comment, punctuation.definition.comment</string>

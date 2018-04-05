@@ -37,7 +37,7 @@
 				<key>caret</key>
 				<string>#FFFFFF</string>
 				<key>foreground</key>
-				<string>#CDD3DE</string>
+				<string>#DEDEDE</string>
 				<key>invisibles</key>
 				<string>#404040</string>
 				<key>lineHighlight</key>
@@ -65,7 +65,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#CDD3DE</string>
+				<string>#DEDEDE</string>
 			</dict>
 		</dict>
 		<dict>
@@ -89,7 +89,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#CDD3DE</string>
+				<string>#DEDEDE</string>
 			</dict>
 		</dict>
 		<dict>
@@ -100,7 +100,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#CDD3DE</string>
+				<string>#DEDEDE</string>
 			</dict>
 		</dict>
 		<dict>

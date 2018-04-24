@@ -18,7 +18,7 @@
 				<key>caret</key>
 				<string>#ffffff</string>
 				<key>foreground</key>
-				<string>#A8B4B5</string>
+				<string>#b1b1b1</string>
 				<key>gutter</key>
 				<string>#073642</string>
 				<key>invisibles</key>
@@ -222,7 +222,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#859900ff</string>
+				<string>#268bd2ff</string>
 			</dict>
 		</dict>
 		<dict>

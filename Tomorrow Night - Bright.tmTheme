@@ -349,6 +349,19 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Ruby special methods</string>
+			<key>scope</key>
+			<string>source.ruby.rails keyword.other.special-method.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#70C0B1</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Ruby and Elixir embedded string</string>
 			<key>scope</key>
 			<string>source.elixir string.quoted.double.elixir source.elixir.embedded.source, source.ruby string.quoted.double.ruby source.ruby.embedded.source</string>

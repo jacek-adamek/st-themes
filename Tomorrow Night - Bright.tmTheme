@@ -74,7 +74,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#D54E53</string>
+				<string>#87CEFA</string>
 			</dict>
 		</dict>
 		<dict>
@@ -301,18 +301,18 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Module attributes (@spec and other starting with @)</string>
+			<string>Elixir module attributes and Ruby instance variables</string>
 			<key>scope</key>
-			<string>variable.other.readwrite.module.elixir</string>
+			<string>variable.other.readwrite.module.elixir, source.ruby variable.other.readwrite.instance.ruby, source.ruby variable.other.readwrite.class.ruby</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#DFCBDF</string>
+				<string>#CDCDFF</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Module variables (MODULE, ENV, CALLER)</string>
+			<string>Elixir module variables (MODULE, ENV, CALLER)</string>
 			<key>scope</key>
 			<string>variable.language.elixir</string>
 			<key>settings</key>
@@ -331,20 +331,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#56B6C2</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Ruby instance variable</string>
-			<key>scope</key>
-			<string>source.ruby variable.other.readwrite.instance.ruby, source.ruby variable.other.readwrite.class.ruby</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#DFCBDF</string>
+				<string>#70C0B1</string>
 			</dict>
 		</dict>
 		<dict>
@@ -358,6 +345,32 @@
 				<string></string>
 				<key>foreground</key>
 				<string>#70C0B1</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ruby built in methods</string>
+			<key>scope</key>
+			<string>source.ruby support.function.builtin.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#87CEFA</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ruby const definition</string>
+			<key>scope</key>
+			<string>source.ruby meta.constant.ruby entity.name.constant.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#D54E53</string>
 			</dict>
 		</dict>
 		<dict>

@@ -331,7 +331,8 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#93c7e7</string>
+				<!-- <string>#A1CEEA</string> -->
+				<string>#BCDCF0</string>
 			</dict>
 		</dict>
 		<dict>

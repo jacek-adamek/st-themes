@@ -20,7 +20,7 @@
 				<key>caret</key>
 				<string>#FFFFFF</string>
 				<key>foreground</key>
-				<string>#DEDEDE</string>
+				<string>#E6E1DC</string>
 				<key>invisibles</key>
 				<string>#343434</string>
 				<key>lineHighlight</key>
@@ -331,8 +331,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<!-- <string>#A1CEEA</string> -->
-				<string>#BCDCF0</string>
+				<string>#A1CEEA</string>
 			</dict>
 		</dict>
 		<dict>

@@ -39,7 +39,7 @@
 				<key>caret</key>
 				<string>#FFFFFF</string>
 				<key>foreground</key>
-				<string>#DEDEDE</string>
+				<string>#E6E1DC</string>
 				<key>guide</key>
 				<string>#65737F</string>
 				<key>invisibles</key>
@@ -84,7 +84,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#DEDEDE</string>
+				<string>#E6E1DC</string>
 			</dict>
 		</dict>
 		<dict>
@@ -140,7 +140,7 @@
 			<dict>
 				<key>foreground</key>
 				<!-- As variables -->
-				<string>#DEDEDE</string>
+				<string>#E6E1DC</string>
 			</dict>
 		</dict>
 		<dict>

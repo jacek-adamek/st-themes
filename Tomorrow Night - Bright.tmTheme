@@ -124,7 +124,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#D54E53</string>
+				<string>#70C0B1</string>
 			</dict>
 		</dict>
 		<dict>
@@ -397,6 +397,19 @@
 				<string></string>
 				<key>foreground</key>
 				<string>#73B272</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Elixir other operators</string>
+			<key>scope</key>
+			<string>source.elixir keyword.operator.other.elixir</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#D54E53</string>
 			</dict>
 		</dict>
 	</array>

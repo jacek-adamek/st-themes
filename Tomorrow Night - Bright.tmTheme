@@ -412,6 +412,19 @@
 				<string>#D54E53</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>Elixir keyword operators (when, and, or)</string>
+			<key>scope</key>
+			<string>source.elixir meta.function.public.elixir keyword.operator.elixir</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#C397D8</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>33D8C715-AD3A-455B-8DF2-56F708909FFE</string>

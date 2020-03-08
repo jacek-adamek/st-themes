@@ -425,6 +425,96 @@
 				<string>#C397D8</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>Rust types</string>
+			<key>scope</key>
+			<string>
+				source.rust meta.function.rust meta.block.rust meta.generic.rust,
+				source.rust meta.function.rust meta.function.parameters.rust,
+				source.rust meta.function.rust meta.function.return-type.rust meta.generic.rust,
+				source.rust meta.impl.rust entity.name.impl.rust,
+				source.rust meta.impl.rust meta.generic.rust,
+				source.rust meta.impl.rust meta.generic.rust entity.name.impl.rust,
+				source.rust meta.impl.rust meta.generic.rust meta.generic.rust,
+				source.rust meta.struct.rust meta.block.rust meta.generic.rust punctuation.definition.generic.begin.rust,
+				source.rust meta.struct.rust meta.block.rust meta.generic.rust punctuation.definition.generic.end.rust,
+				source.rust meta.struct.rust meta.block.rust meta.generic.rust,
+				source.rust meta.struct.rust meta.struct.rust entity.name.struct.rust,
+				source.rust storage.type.source.rust,
+				source.rust meta.trait.rust entity.name.trait.rust,
+				source.rust meta.trait.rust meta.generic.rust,
+				source.rust meta.struct.rust meta.block.rust,
+				source.rust meta.generic.rust meta.generic.rust,
+				source.rust entity.name.type.rust,
+				source.rust meta.generic.rust,
+				source.rust meta.function.rust meta.function.return-type.rust,
+				source.rust meta.enum.rust meta.enum.rust entity.name.enum.rust,
+				source.rust meta.enum.rust meta.struct.rust meta.group.rust
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E7C547</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Rust macros</string>
+			<key>scope</key>
+			<string>
+				source.rust meta.function.rust meta.block.rust meta.block.rust support.macro.rust,
+				source.rust meta.function.rust meta.block.rust support.macro.rust
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#C397D8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Rust function calls</string>
+			<key>scope</key>
+			<string>
+				source.rust meta.function.rust meta.block.rust support.function.rust,
+				source.rust meta.struct.rust meta.block.rust variable.other.member.rust,
+				source.rust meta.function.rust meta.function.rust meta.function.parameters.rust punctuation.definition.parameters.end.rust,
+				source.rust meta.function.rust meta.function.parameters.rust punctuation.definition.parameters.begin.rust
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E6E1DC</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Rust annotations</string>
+			<key>scope</key>
+			<string>
+				source.rust meta.annotation.rust,
+				source.rust meta.annotation.rust support.function.rust
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E7C547</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Rust annotations - group</string>
+			<key>scope</key>
+			<string>
+				source.rust meta.annotation.rust meta.group.rust
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E78C45</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>33D8C715-AD3A-455B-8DF2-56F708909FFE</string>

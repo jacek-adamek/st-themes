@@ -475,6 +475,28 @@
 				<string>#FFFFFF</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>Typescript types</string>
+			<key>scope</key>
+			<string>source.ts entity.name.type.ts, source.ts meta.interface.ts entity.name.type.interface.ts</string>
+			<key>settings</key>
+			<dict>
+			  <key>foreground</key>
+				<string>#FAC863</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Typescript object properties</string>
+			<key>scope</key>
+			<string>source.ts meta.object-literal.key.ts, source.ts variable.object.property.ts</string>
+			<key>settings</key>
+			<dict>
+			  <key>foreground</key>
+				<string>#99C794</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>21a3a5f5-e82f-48a8-bc8b-9aef307f6131</string>

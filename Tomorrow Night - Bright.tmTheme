@@ -124,7 +124,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#70C0B1</string>
+				<string>#70b7f0</string>
 			</dict>
 		</dict>
 		<dict>
@@ -137,7 +137,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#61AFEF</string>
+				<string>#70b7f0</string>
 			</dict>
 		</dict>
 		<dict>
@@ -307,7 +307,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#CDCDFF</string>
+				<string>#E78C45</string>
 			</dict>
 		</dict>
 		<dict>
@@ -318,7 +318,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#A1CEEA</string>
+				<string>#70C0B1</string>
 			</dict>
 		</dict>
 		<dict>
@@ -397,19 +397,6 @@
 				<string></string>
 				<key>foreground</key>
 				<string>#73B272</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Elixir other operators</string>
-			<key>scope</key>
-			<string>source.elixir keyword.operator.other.elixir</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#D54E53</string>
 			</dict>
 		</dict>
 		<dict>

@@ -401,19 +401,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Elixir keyword operators (when, and, or)</string>
-			<key>scope</key>
-			<string>source.elixir meta.function.public.elixir keyword.operator.elixir</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#C397D8</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>Rust types</string>
 			<key>scope</key>
 			<string>

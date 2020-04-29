@@ -124,23 +124,11 @@
 			<key>name</key>
 			<string>Function, Special Method, Block Level</string>
 			<key>scope</key>
-			<string>entity.name.function, support.function, keyword.other.special-method, meta.block-level</string>
+			<string>entity.name.function, meta.function-call, variable.function, support.function, keyword.other.special-method, meta.block-level</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#61AFEF</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Function</string>
-			<key>scope</key>
-			<string>meta.function-call, variable.function</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<!-- As variables -->
-				<string>#E6E1DC</string>
 			</dict>
 		</dict>
 		<dict>

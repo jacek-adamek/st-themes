@@ -312,9 +312,13 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Elixir module variables (MODULE, ENV, CALLER)</string>
+			<string>Elixir module variables (MODULE, ENV, CALLER) and Erlang macros</string>
 			<key>scope</key>
-			<string>variable.language.elixir</string>
+			<string>
+				variable.language.elixir,
+				source.erlang entity.name.function.macro.erlang,
+				source.erlang keyword.operator.macro.erlang
+			</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -323,9 +327,14 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Ruby symbols and Elixir atoms</string>
+			<string>Ruby symbols, Elixir and Erlang atoms</string>
 			<key>scope</key>
-			<string>source.ruby constant.other.symbol.ruby, source.elixir constant.other.keywords.elixir, source.elixir constant.other.symbol.elixir</string>
+			<string>source.ruby constant.other.symbol.ruby,
+				source.elixir constant.other.keywords.elixir,
+				source.elixir constant.other.symbol.elixir,
+				source.erlang constant.other.symbol.unquoted.erlang,
+				source.erlang variable.other.field.erlang
+			</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -487,6 +496,43 @@
 			<dict>
 				<key>foreground</key>
 				<string>#E78C45</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Erlang functions</string>
+			<key>scope</key>
+			<string>
+				source.erlang variable.function.erlang,
+				source.elixir punctuation.separator.object.elixir
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#70b7f0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Erlang variables and punctuiations</string>
+			<key>scope</key>
+			<string>
+				source.erlang variable.other.erlang,
+				source.erlang punctuation.section.parameters.begin.erlang,
+				source.erlang punctuation.section.parameters.end.erlang,
+				source.erlang punctuation.section.list.begin.erlang,
+				source.erlang punctuation.section.list.end.erlang,
+				source.erlang punctuation.section.tuple.begin.erlang,
+				source.erlang punctuation.section.tuple.end.erlang,
+				source.erlang punctuation.section.class.record.begin.erlang,
+				source.erlang punctuation.section.class.record.end.erlang,
+				source.erlang punctuation.section.expression.begin.erlang,
+				source.erlang punctuation.section.expression.end.erlang
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E6E1DC</string>
 			</dict>
 		</dict>
 	</array>

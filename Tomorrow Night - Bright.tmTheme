@@ -504,7 +504,15 @@
 			<key>scope</key>
 			<string>
 				source.erlang variable.function.erlang,
-				source.elixir punctuation.separator.object.elixir
+				source.elixir punctuation.separator.object.elixir,
+				source.erlang punctuation.definition.binary.begin.erlang,
+				source.erlang punctuation.definition.binary.end.erlang,
+				source.erlang punctuation.separator.clause-head-body.erlang,
+				source.erlang punctuation.separator.clauses.erlang,
+				source.erlang punctuation.terminator.function.erlang,
+				source.erlang punctuation.separator.list.erlang,
+				source.erlang punctuation.separator.tuple.erlang,
+				source.erlang meta.expression.parenthesized
 			</string>
 			<key>settings</key>
 			<dict>

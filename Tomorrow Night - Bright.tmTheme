@@ -413,27 +413,15 @@
 			<string>Rust types</string>
 			<key>scope</key>
 			<string>
-				source.rust meta.function.rust meta.block.rust meta.generic.rust,
-				source.rust meta.function.rust meta.function.parameters.rust,
-				source.rust meta.function.rust meta.function.return-type.rust meta.generic.rust,
-				source.rust meta.impl.rust entity.name.impl.rust,
-				source.rust meta.impl.rust meta.generic.rust,
-				source.rust meta.impl.rust meta.generic.rust entity.name.impl.rust,
-				source.rust meta.impl.rust meta.generic.rust meta.generic.rust,
-				source.rust meta.struct.rust meta.block.rust meta.generic.rust punctuation.definition.generic.begin.rust,
-				source.rust meta.struct.rust meta.block.rust meta.generic.rust punctuation.definition.generic.end.rust,
-				source.rust meta.struct.rust meta.block.rust meta.generic.rust,
-				source.rust meta.struct.rust meta.struct.rust entity.name.struct.rust,
-				source.rust storage.type.source.rust,
-				source.rust meta.trait.rust entity.name.trait.rust,
-				source.rust meta.trait.rust meta.generic.rust,
-				source.rust meta.struct.rust meta.block.rust,
-				source.rust meta.generic.rust meta.generic.rust,
-				source.rust entity.name.type.rust,
+				source.rust entity.name.impl.rust,
+				source.rust meta.function.return-type.rust,
 				source.rust meta.generic.rust,
-				source.rust meta.function.rust meta.function.return-type.rust,
-				source.rust meta.enum.rust meta.enum.rust entity.name.enum.rust,
-				source.rust meta.enum.rust meta.struct.rust meta.group.rust
+				source.rust storage.type.source.rust,
+				source.rust meta.function.parameters.rust,
+				source.rust entity.name.struct.rust,
+				source.rust entity.name.type.rust,
+				source.rust entity.name.enum.rust,
+				source.rust constant.other.rust
 			</string>
 			<key>settings</key>
 			<dict>
@@ -460,10 +448,12 @@
 			<string>Rust function calls</string>
 			<key>scope</key>
 			<string>
-				source.rust meta.function.rust meta.block.rust support.function.rust,
-				source.rust meta.struct.rust meta.block.rust variable.other.member.rust,
-				source.rust meta.function.rust meta.function.rust meta.function.parameters.rust punctuation.definition.parameters.end.rust,
-				source.rust meta.function.rust meta.function.parameters.rust punctuation.definition.parameters.begin.rust
+				source.rust support.function.rust,
+				source.rust variable.other.member.rust,
+				source.rust punctuation.definition.parameters.begin.rust,
+				source.rust punctuation.definition.parameters.end.rust,
+				source.rust punctuation.definition.block.begin.rust,
+				source.rust punctuation.definition.block.end.rust
 			</string>
 			<key>settings</key>
 			<dict>
@@ -496,6 +486,19 @@
 			<dict>
 				<key>foreground</key>
 				<string>#E78C45</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Rust separators</string>
+			<key>scope</key>
+			<string>
+				source.rust punctuation.separator.rust
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#70b7f0</string>
 			</dict>
 		</dict>
 		<dict>

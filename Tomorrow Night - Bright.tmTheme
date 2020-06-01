@@ -493,7 +493,8 @@
 			<string>Rust separators</string>
 			<key>scope</key>
 			<string>
-				source.rust punctuation.separator.rust
+				source.rust punctuation.separator.rust,
+				source.rust meta.path.rust
 			</string>
 			<key>settings</key>
 			<dict>

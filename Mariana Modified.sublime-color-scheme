@@ -330,5 +330,10 @@
             "background": "#CC8400",
             "foreground": "#FFFFFF"
         },
+        {
+            "name": "Go punctuations",
+            "scope": "source.go punctuation.separator.go,source.go punctuation.accessor.dot.go",
+            "foreground": "var(white)"
+        },
     ]
 }

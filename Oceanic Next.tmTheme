@@ -39,7 +39,7 @@
 				<key>caret</key>
 				<string>#FFFFFF</string>
 				<key>foreground</key>
-				<string>#E6E1DC</string>
+				<string>#D5D0CB</string>
 				<key>guide</key>
 				<string>#65737F</string>
 				<key>invisibles</key>
@@ -84,7 +84,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E6E1DC</string>
+				<string>#D5D0CB</string>
 			</dict>
 		</dict>
 		<dict>
@@ -495,7 +495,7 @@
 			<key>settings</key>
 			<dict>
 			  <key>foreground</key>
-				<string>#E6E1DC</string>
+				<string>#D5D0CB</string>
 			</dict>
 		</dict>
 		<dict>
@@ -509,7 +509,7 @@
 			<key>settings</key>
 			<dict>
 			  <key>foreground</key>
-				<string>#E6E1DC</string>
+				<string>#D5D0CB</string>
 			</dict>
 		</dict>
 	</array>

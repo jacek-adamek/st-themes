@@ -20,7 +20,7 @@
 				<key>caret</key>
 				<string>#FFFFFF</string>
 				<key>foreground</key>
-				<string>#E6E1DC</string>
+				<string>#D5D0CB</string>
 				<key>invisibles</key>
 				<string>#343434</string>
 				<key>lineHighlight</key>
@@ -48,7 +48,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#999999</string>
+				<string>#888888</string>
 				<key>fontStyle</key>
 				<string> italic</string>
 			</dict>
@@ -392,7 +392,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#E6E1DC</string>
+				<string>#D5D0CB</string>
 			</dict>
 		</dict>
 		<dict>
@@ -458,7 +458,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E6E1DC</string>
+				<string>#D5D0CB</string>
 			</dict>
 		</dict>
 		<dict>
@@ -544,7 +544,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E6E1DC</string>
+				<string>#D5D0CB</string>
 			</dict>
 		</dict>
 	</array>

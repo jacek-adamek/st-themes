@@ -9,7 +9,7 @@
         "blue3": "hsl(210, 15%, 24%)",
         "blue4": "hsl(210, 13%, 45%)",
         "blue5": "hsl(180, 36%, 54%)",
-        "blue6": "hsl(221, 12%, 69%)",
+        "blue6": "#959BA8",
         "green": "hsl(114, 31%, 68%)",
         "grey": "hsl(0, 0%, 20%)",
         "orange": "hsl(32, 93%, 66%)",
@@ -18,14 +18,13 @@
         "pink": "hsl(300, 30%, 68%)",
         "red": "hsl(357, 79%, 65%)",
         "red2": "hsl(13, 93%, 66%)",
-        "white": "hsl(0, 0%, 100%)",
+        "white": "#D5D0CB",
         "white2": "hsl(0, 0%, 97%)",
         "white3": "hsl(219, 28%, 88%)"
     },
     "globals":
     {
-        // "foreground": "var(white3)",
-        "foreground": "#E6E1DC",
+        "foreground": "var(white)",
         "background": "#232323",
         "caret": "var(orange)",
         "line_highlight": "var(blue2)",

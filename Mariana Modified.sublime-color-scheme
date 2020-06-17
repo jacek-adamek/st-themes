@@ -335,5 +335,10 @@
             "scope": "source.go punctuation.separator.go,source.go punctuation.accessor.dot.go",
             "foreground": "var(white)"
         },
+        {
+            "name": "C++ punctuations",
+            "scope": "source.c++ punctuation.terminator.c++, source.c++ punctuation.accessor.arrow.c++,source.c++ punctuation.separator",
+            "foreground": "var(white)"
+        },
     ]
 }

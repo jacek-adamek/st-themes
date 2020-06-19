@@ -141,8 +141,7 @@
         {
             "name": "Inherited class",
             "scope": "entity.other.inherited-class",
-            "foreground": "var(blue5)",
-            "font_style": "italic underline"
+            "foreground": "var(blue5)"
         },
         {
             "name": "Function argument",
@@ -333,6 +332,11 @@
         {
             "name": "Go punctuations",
             "scope": "source.go punctuation.separator.go,source.go punctuation.accessor.dot.go",
+            "foreground": "var(white)"
+        },
+        {
+            "name": "C++ punctuations",
+            "scope": "source.c++ punctuation.terminator.c++, source.c++ punctuation.accessor.arrow.c++,source.c++ punctuation.separator",
             "foreground": "var(white)"
         },
     ]

@@ -512,6 +512,22 @@
 				<string>#D5D0CB</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>Vue components</string>
+			<key>scope</key>
+			<string>
+ 				text.html.vue punctuation.section.block.begin.js,
+ 				text.html.vue punctuation.section.block.end.js,
+ 				text.html.vue punctuation.section.group.begin.js,
+ 				text.html.vue punctuation.section.group.end.js
+			</string>
+			<key>settings</key>
+			<dict>
+			  <key>foreground</key>
+				<string>#D5D0CB</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>21a3a5f5-e82f-48a8-bc8b-9aef307f6131</string>

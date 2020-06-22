@@ -310,7 +310,11 @@
 			<key>name</key>
 			<string>Ruby constants</string>
 			<key>scope</key>
-			<string>source.ruby meta.constant.ruby entity.name.constant.ruby</string>
+			<string>
+				source.ruby meta.constant.ruby entity.name.constant.ruby,
+				source.ruby support.class.ruby,
+				source.ruby entity.other.inherited-class.ruby
+			</string>
 			<key>settings</key>
 			<dict>
 			  <key>foreground</key>

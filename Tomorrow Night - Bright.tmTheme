@@ -410,6 +410,45 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Elixir keyword operators</string>
+			<key>scope</key>
+			<string>source.elixir keyword.operator.elixir</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#C397D8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Elixir functions names</string>
+			<key>scope</key>
+			<string>source.elixir entity.name.function.elixir</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#D5D0CB</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Elixir unused code</string>
+			<key>scope</key>
+			<string>source.elixir comment.unused.elixir</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#ABA8A3</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Rust types</string>
 			<key>scope</key>
 			<string>

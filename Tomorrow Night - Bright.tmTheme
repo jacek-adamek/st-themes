@@ -449,6 +449,21 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Elixir Protocols</string>
+			<key>scope</key>
+			<string>
+				source.elixir meta.protocol_implementation.elixir entity.name.type.protocol.elixir,
+				source.elixir meta.protocol_declaration.elixir entity.name.type.protocol.elixir,
+				source.elixir entity.other.inherited-class.elixir
+		</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E7C547</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Rust types</string>
 			<key>scope</key>
 			<string>

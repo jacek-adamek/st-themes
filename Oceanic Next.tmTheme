@@ -476,9 +476,13 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Typescript object properties</string>
+			<string>Typescript and Vue object properties</string>
 			<key>scope</key>
-			<string>source.ts meta.object-literal.key.ts, source.ts variable.object.property.ts</string>
+			<string>
+				source.ts meta.object-literal.key.ts,
+				source.ts variable.object.property.ts,
+				text.html.vue meta.object-literal.key.js
+			</string>
 			<key>settings</key>
 			<dict>
 			  <key>foreground</key>

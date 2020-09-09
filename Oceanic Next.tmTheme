@@ -504,11 +504,11 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Parameters punctuation</string>
+			<string>Function parameters punctuation</string>
 			<key>scope</key>
 			<string>
- 				punctuation.definition.parameters.begin,
- 				punctuation.definition.parameters.end
+				source.js meta.function.js punctuation.definition.parameters.begin.js,
+				source.js meta.function.js punctuation.definition.parameters.end.js
 			</string>
 			<key>settings</key>
 			<dict>

@@ -508,7 +508,10 @@
 			<key>scope</key>
 			<string>
 				source.js meta.function.js punctuation.definition.parameters.begin.js,
-				source.js meta.function.js punctuation.definition.parameters.end.js
+				source.js meta.function.js punctuation.definition.parameters.end.js,
+				source.ts punctuation.definition.parameters.begin.ts,
+				source.ts punctuation.definition.parameters.end.ts,
+				source.ts punctuation.definition.binding-pattern.object.ts
 			</string>
 			<key>settings</key>
 			<dict>

@@ -601,6 +601,22 @@
 				<string>#D5D0CB</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>Haskell modules</string>
+			<key>scope</key>
+			<string>
+				source.haskell constant.other.haskell,
+				source.haskell support.other.module.haskell,
+				source.haskell storage.type.haskell,
+				source.haskell entity.other.inherited-class.haskell
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#CFB13F</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>33D8C715-AD3A-455B-8DF2-56F708909FFE</string>

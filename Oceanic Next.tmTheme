@@ -481,7 +481,8 @@
 			<string>
 				source.ts meta.object-literal.key.ts,
 				source.ts variable.object.property.ts,
-				text.html.vue meta.object-literal.key.js
+				text.html.vue meta.object-literal.key.js,
+				source.tsx meta.object-literal.key.tsx
 			</string>
 			<key>settings</key>
 			<dict>
@@ -494,7 +495,8 @@
 			<string>Typescript braces</string>
 			<key>scope</key>
 			<string>
-				source.ts punctuation.definition.block.ts
+				source.ts punctuation.definition.block.ts,
+				source.tsx punctuation.definition.block.tsx
 			</string>
 			<key>settings</key>
 			<dict>
@@ -533,6 +535,32 @@
 			<dict>
 			  <key>foreground</key>
 				<string>#D5D0CB</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Tsx normal</string>
+			<key>scope</key>
+			<string>
+ 				source.tsx meta.jsx.children.tsx
+			</string>
+			<key>settings</key>
+			<dict>
+			  <key>foreground</key>
+				<string>#D5D0CB</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Tsx types</string>
+			<key>scope</key>
+			<string>
+ 				source.tsx entity.name.type.tsx
+			</string>
+			<key>settings</key>
+			<dict>
+			  <key>foreground</key>
+				<string>#FAC863</string>
 			</dict>
 		</dict>
 	</array>

@@ -555,7 +555,10 @@
 			<string>Tsx types</string>
 			<key>scope</key>
 			<string>
- 				source.tsx entity.name.type.tsx
+ 				source.tsx entity.name.type.tsx,
+ 				source.js variable.other.class.js,
+ 				source.ts entity.name.type.alias.ts,
+ 				source.tsx entity.name.type.alias.tsx
 			</string>
 			<key>settings</key>
 			<dict>

@@ -558,7 +558,10 @@
  				source.tsx entity.name.type.tsx,
  				source.js variable.other.class.js,
  				source.ts entity.name.type.alias.ts,
- 				source.tsx entity.name.type.alias.tsx
+ 				source.tsx entity.name.type.alias.tsx,
+ 				source.js entity.other.inherited-class.js,
+ 				source.tsx entity.other.inherited-class.tsx,
+ 				source.ts entity.other.inherited-class.ts
 			</string>
 			<key>settings</key>
 			<dict>

@@ -100,7 +100,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#E7C547</string>
+				<string>#FAC863</string>
 			</dict>
 		</dict>
 		<dict>
@@ -113,7 +113,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#B9CA4A</string>
+				<string>#99C794</string>
 			</dict>
 		</dict>
 		<dict>
@@ -124,7 +124,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#70b7f0</string>
+				<string>#5FB3B3</string>
 			</dict>
 		</dict>
 		<dict>
@@ -137,7 +137,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#70b7f0</string>
+				<string>#78B0DF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -340,7 +340,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#70C0B1</string>
+				<string>#a6b542</string>
 			</dict>
 		</dict>
 		<dict>
@@ -386,7 +386,9 @@
 			<key>name</key>
 			<string>Ruby and Elixir embedded string</string>
 			<key>scope</key>
-			<string>source.elixir string.quoted.double.elixir source.elixir.embedded.source, source.ruby string.quoted.double.ruby source.ruby.embedded.source</string>
+			<string>
+				source.elixir string.quoted.double.elixir meta.embedded.line.elixir source.elixir,
+				source.ruby string.quoted.double.ruby source.ruby.embedded.source</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -425,13 +427,16 @@
 			<key>name</key>
 			<string>Elixir functions names</string>
 			<key>scope</key>
-			<string>source.elixir entity.name.function.elixir</string>
+			<string>
+				source.elixir entity.name.function.elixir,
+				source.erlang meta.function-call.erlang variable.function.erlang
+			</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#D5D0CB</string>
+				<string>#78B0DF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -459,7 +464,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E7C547</string>
+				<string>#FAC863</string>
 			</dict>
 		</dict>
 		<dict>
@@ -480,7 +485,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E7C547</string>
+				<string>#FAC863</string>
 			</dict>
 		</dict>
 		<dict>
@@ -526,7 +531,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E7C547</string>
+				<string>#FAC863</string>
 			</dict>
 		</dict>
 		<dict>
@@ -563,19 +568,22 @@
 			<string>
 				source.erlang variable.function.erlang,
 				source.elixir punctuation.separator.object.elixir,
-				source.erlang punctuation.definition.binary.begin.erlang,
 				source.erlang punctuation.definition.binary.end.erlang,
+				source.erlang punctuation.definition.binary.begin.erlang,
 				source.erlang punctuation.separator.clause-head-body.erlang,
 				source.erlang punctuation.separator.clauses.erlang,
 				source.erlang punctuation.terminator.function.erlang,
 				source.erlang punctuation.separator.list.erlang,
 				source.erlang punctuation.separator.tuple.erlang,
-				source.erlang meta.expression.parenthesized
+				source.erlang meta.expression.parenthesized,
+				source.elixir punctuation.separator.method.elixir,
+				source.erlang punctuation.separator.parameters.erlang,
+				source.erlang punctuation.separator.module-function.erlang
 			</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#70b7f0</string>
+				<string>#5FB3B3</string>
 			</dict>
 		</dict>
 		<dict>

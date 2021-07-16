@@ -27,7 +27,7 @@
         "foreground": "var(white)",
         "background": "#232323",
         "caret": "var(orange)",
-        "line_highlight": "var(blue2)",
+        "line_highlight": "#333435",
         "selection": "var(blue2)",
         "selection_border": "var(blue4)",
         "inactive_selection": "var(blue2)",

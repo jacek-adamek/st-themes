@@ -447,9 +447,9 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>italic</string>
+				<string>normal</string>
 				<key>foreground</key>
-				<string>#ABA8A3</string>
+				<string>#888888</string>
 			</dict>
 		</dict>
 		<dict>

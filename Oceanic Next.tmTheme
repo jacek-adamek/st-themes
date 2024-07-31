@@ -465,60 +465,20 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Typescript types</string>
-			<key>scope</key>
-			<string>source.ts entity.name.type.ts, source.ts meta.interface.ts entity.name.type.interface.ts</string>
-			<key>settings</key>
-			<dict>
-			  <key>foreground</key>
-				<string>#FAC863</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Typescript and Vue object properties</string>
+			<string>JS/TS properties</string>
 			<key>scope</key>
 			<string>
 				source.ts meta.object-literal.key.ts,
 				source.ts variable.object.property.ts,
 				text.html.vue meta.object-literal.key.js,
-				source.tsx meta.object-literal.key.tsx
+				source.tsx meta.object-literal.key.tsx,
+				source.ts meta.mapping.key.js,
+				source.ts meta.interface.js variable.other.readwrite.js
 			</string>
 			<key>settings</key>
 			<dict>
 			  <key>foreground</key>
 				<string>#99C794</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Typescript braces</string>
-			<key>scope</key>
-			<string>
-				source.ts punctuation.definition.block.ts,
-				source.tsx punctuation.definition.block.tsx
-			</string>
-			<key>settings</key>
-			<dict>
-			  <key>foreground</key>
-				<string>#D5D0CB</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Function parameters punctuation</string>
-			<key>scope</key>
-			<string>
-				source.js meta.function.js punctuation.definition.parameters.begin.js,
-				source.js meta.function.js punctuation.definition.parameters.end.js,
-				source.ts punctuation.definition.parameters.begin.ts,
-				source.ts punctuation.definition.parameters.end.ts,
-				source.ts punctuation.definition.binding-pattern.object.ts
-			</string>
-			<key>settings</key>
-			<dict>
-			  <key>foreground</key>
-				<string>#D5D0CB</string>
 			</dict>
 		</dict>
 		<dict>
@@ -539,10 +499,18 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Tsx normal</string>
+			<string>JS/TS normal</string>
 			<key>scope</key>
 			<string>
- 				source.tsx meta.jsx.children.tsx
+ 				source.tsx meta.jsx.children.tsx,
+ 				source.ts meta.property.object.js,
+ 				source.ts meta.interface.js meta.type.js storage.modifier.array.js,
+ 				source.ts punctuation.section.block.begin.js,
+ 				source.ts punctuation.section.block.end.js,
+ 				source.ts meta.function.parameters.js punctuation.section.group.begin.js,
+ 				source.ts meta.function.parameters.js punctuation.section.group.end.js,
+ 				source.ts meta.function-call.arguments.js punctuation.section.group.begin.js,
+ 				source.ts meta.function-call.arguments.js punctuation.section.group.end.js
 			</string>
 			<key>settings</key>
 			<dict>
@@ -552,7 +520,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Tsx types</string>
+			<string>JS/TS types</string>
 			<key>scope</key>
 			<string>
  				source.tsx entity.name.type.tsx,
@@ -561,7 +529,9 @@
  				source.tsx entity.name.type.alias.tsx,
  				source.js entity.other.inherited-class.js,
  				source.tsx entity.other.inherited-class.tsx,
- 				source.ts entity.other.inherited-class.ts
+ 				source.ts entity.other.inherited-class.ts,
+ 				source.ts variable.type.js,
+ 				source.ts entity.name.interface.js
 			</string>
 			<key>settings</key>
 			<dict>

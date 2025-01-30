@@ -504,13 +504,21 @@
 			<string>
  				source.tsx meta.jsx.children.tsx,
  				source.ts meta.property.object.js,
+ 				source.tsx meta.property.object.js,
  				source.ts meta.interface.js meta.type.js storage.modifier.array.js,
  				source.ts punctuation.section.block.begin.js,
  				source.ts punctuation.section.block.end.js,
- 				source.ts meta.function.parameters.js punctuation.section.group.begin.js,
- 				source.ts meta.function.parameters.js punctuation.section.group.end.js,
- 				source.ts meta.function-call.arguments.js punctuation.section.group.begin.js,
- 				source.ts meta.function-call.arguments.js punctuation.section.group.end.js
+ 				source.tsx punctuation.section.block.begin.js,
+ 				source.tsx punctuation.section.block.end.js,
+ 				source.ts punctuation.section.group.begin.js,
+ 				source.ts punctuation.section.group.end.js,
+ 				source.ts punctuation.section.group.begin.js,
+ 				source.ts punctuation.section.group.end.js,
+ 				source.tsx punctuation.section.mapping.begin.js,
+ 				source.tsx punctuation.section.mapping.end.js,
+ 				source.tsx punctuation.section.group.begin.js,
+ 				source.tsx punctuation.section.group.end.js,
+ 				source.tsx meta.jsx.js
 			</string>
 			<key>settings</key>
 			<dict>
@@ -531,7 +539,8 @@
  				source.tsx entity.other.inherited-class.tsx,
  				source.ts entity.other.inherited-class.ts,
  				source.ts variable.type.js,
- 				source.ts entity.name.interface.js
+ 				source.ts entity.name.interface.js,
+ 				source.tsx entity.name.tag.component.js
 			</string>
 			<key>settings</key>
 			<dict>

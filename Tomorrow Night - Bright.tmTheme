@@ -94,13 +94,13 @@
 			<key>name</key>
 			<string>Class, Support</string>
 			<key>scope</key>
-			<string>entity.name.class, entity.name.type.class, support.type, support.class</string>
+			<string>entity.name.class, entity.name.type.class, support.type, support.class, entity.name.namespace.elixir, constant.other.module.elixir</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#FAC863</string>
+				<string>#E1B459</string>
 			</dict>
 		</dict>
 		<dict>
@@ -303,7 +303,9 @@
 			<key>name</key>
 			<string>Elixir module attributes and Ruby instance variables</string>
 			<key>scope</key>
-			<string>variable.other.readwrite.module.elixir, source.ruby variable.other.readwrite.instance.ruby, source.ruby variable.other.readwrite.class.ruby</string>
+			<string>variable.other.readwrite.module.elixir, source.ruby variable.other.readwrite.instance.ruby, source.ruby variable.other.readwrite.class.ruby,
+				support.attr.elixir,
+				keyword.operator.attribute.elixir,</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -333,7 +335,8 @@
 				source.elixir constant.other.keywords.elixir,
 				source.elixir constant.other.symbol.elixir,
 				source.erlang constant.other.symbol.unquoted.erlang,
-				source.erlang variable.other.field.erlang
+				source.erlang variable.other.field.erlang,
+				constant.other.keyword.elixir
 			</string>
 			<key>settings</key>
 			<dict>
@@ -388,7 +391,8 @@
 			<key>scope</key>
 			<string>
 				source.elixir string.quoted.double.elixir meta.embedded.line.elixir source.elixir,
-				source.ruby string.quoted.double.ruby source.ruby.embedded.source</string>
+				source.ruby string.quoted.double.ruby source.ruby.embedded.source,
+				text.html.heex</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -429,7 +433,8 @@
 			<key>scope</key>
 			<string>
 				source.elixir entity.name.function.elixir,
-				source.erlang meta.function-call.erlang variable.function.erlang
+				source.erlang meta.function-call.erlang variable.function.erlang,
+				variable.function.elixir
 			</string>
 			<key>settings</key>
 			<dict>
@@ -443,7 +448,10 @@
 			<key>name</key>
 			<string>Elixir unused code</string>
 			<key>scope</key>
-			<string>source.elixir comment.unused.elixir</string>
+			<string>
+				comment.unused.elixir,
+				variable.parameter.unused.elixir
+			</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -464,7 +472,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FAC863</string>
+				<string>#E1B459</string>
 			</dict>
 		</dict>
 		<dict>
@@ -485,7 +493,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FAC863</string>
+				<string>#E1B459</string>
 			</dict>
 		</dict>
 		<dict>
@@ -531,7 +539,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FAC863</string>
+				<string>#E1B459</string>
 			</dict>
 		</dict>
 		<dict>
@@ -601,7 +609,20 @@
 				source.erlang punctuation.section.class.record.begin.erlang,
 				source.erlang punctuation.section.class.record.end.erlang,
 				source.erlang punctuation.section.expression.begin.erlang,
-				source.erlang punctuation.section.expression.end.erlang
+				source.erlang punctuation.section.expression.end.erlang,
+				variable.other.elixir,
+				variable.other.member.elixir,
+				source.elixir,
+				punctuation.section.sequence.begin.elixir,
+				punctuation.section.sequence.end.elixir,
+				punctuation.section.arguments.begin.elixir,
+				punctuation.section.arguments.end.elixir,
+				punctuation.definition.parameters.begin.elixir,
+				punctuation.definition.parameters.end.elixir,
+				punctuation.section.mapping.begin.elixir,
+				punctuation.section.mapping.end.elixir,
+				punctuation.section.brackets.begin.elixir,
+				punctuation.section.brackets.end.elixir
 			</string>
 			<key>settings</key>
 			<dict>
